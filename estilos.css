@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:  #473C54;
+    background: linear-gradient(to right, rgba(140, 188, 174, 0.6), rgba(232,214,194, 0.6));
+    /* background-color:#F3E7D1; */
+}
+
+/* seccion hero/banner */
+
+.hero-image {
+    background-image: url("imagenes/hero-image.jpeg");
+    /* opacity: 0.5; */
+    background-size: cover;
+    display: flex;
+    /* background: url("imagenes/hero-image.jpeg"), linear-gradient(rgba(140, 188, 174), rgba(232,214,194)); */
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.hero-contenedor{
+    text-align: center; /* Para centrar el texto horizontalmente */
+    background: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente para mejor legibilidad */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados para el contenido */
+}
+
+
+.hero-sub {
+    font-size: 48px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.hero-titulo{
+    font-size: 96px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+}
+
+/* seccion introduccion/resumen */
+
+.introduccion-contenedor, .resumen-contenedor{
+    display: flex;
+}
+
+.text-intro{
+    font-size: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.intro-p, .text-resumen {
+    text-align: justify; /* Para centrar el texto horizontalmente */
+    background: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente para mejor legibilidad */
+    padding: 35px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados para el contenido */
+    margin: 20px;
+}
+
+/* seccion lugares */
+
+.lugares-contenedor{
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.text-lugares{
+    font-size: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.cartas-lugares{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.carta {
+    margin: 40px;
+    display: flex;
+    columns: 2;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.columna {
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.img-columna{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carta-titulo{
+    font-size: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.galeria{
+    display: flex;
+    columns: 3;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    object-fit: cover;
+    height: auto;
+}
+
+.ubicacion-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* seccion resumen */
+.text-resumen{
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+/* footer */
+.footer {
+    background-color: rgba(140, 188, 174); /* Color de fondo del footer */
+    margin-top: auto; /* Margen superior automático para centrar verticalmente */
+    text-align: center; /* Centrar horizontalmente */
+    height: 100px; /* Altura deseada del footer, ajusta según sea necesario */
+}
+
+.footer-text {
+    font-family: "Plus Jakarta Sans", sans-serif; /* Fuente */
+    font-weight: 400; /* Grosor de la fuente */
+    font-style: normal; /* Estilo de la fuente */
+    margin: 0; /* Eliminar margen predeterminado */
+    padding: 20px; /* Espaciado interno */
+}
+/* .hero-contenedor {
+    text-align: left;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800 */
+
+ 
+
